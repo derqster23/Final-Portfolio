@@ -64,8 +64,8 @@ body{
     padding:5px;
 }
 .ocean{
-    width: 250px;
-    margin:25px 25px 25px 50px;
+    width: 270px;
+    margin:-5px 25px 25px 50px;
 }
 .mountain{
     width:250px;
@@ -78,7 +78,10 @@ body{
     margin: 25px;
 }
 .cycle{
-    margin:25px;
+    margin:-5px 25px 25px 25px;
     width:260px;
 }
-
+.hover:hover{
+    border:5px double white;
+    cursor:pointer;
+}
