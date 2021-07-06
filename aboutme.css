@@ -3,6 +3,7 @@ html, body{
 }
 body{
     background-image:linear-gradient(#447188,#ad0b8a);
+    cursor:url('cursor.cur'),auto;
 }
 .backgrounddiv{
     background-image: url('https://imgur.com/9wPnMyX.png');
@@ -18,17 +19,37 @@ body{
        
 }
 .redx{
-    color:Red;
+    color:#bc4d43;
     font-size:50px;
-    padding-left:50px;
+    margin-top:50px;
+    margin-left:50px;
     font-family: 'Yellowtail', cursive;
+    text-decoration:underline;
+    text-decoration-color: #bc4d43;
 }
 .aboutmeimg img{
     width:300px;
+    
 }
 .toprow{
     justify-content: space-around;
 }
 .bottomrow{
-    justify-content: space-around;
+    margin-right: 40px;
+    justify-content: flex-end;
+}
+.slightmargin{
+    margin:0 2.5px 0 2.5px;
+}
+.marginshift{
+    margin-right:72px;
+}
+.content{
+    font-size:20px;
+    color:white;
+    font-family: 'Concert One', cursive;
+}
+.hover:hover{
+    border:5px double white;
+    cursor: url('cursor.cur'), auto;
 }
