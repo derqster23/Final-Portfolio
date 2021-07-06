@@ -1,0 +1,34 @@
+html, body{
+    height:125%;
+}
+body{
+    background-image:linear-gradient(#447188,#ad0b8a);
+}
+.backgrounddiv{
+    background-image: url('https://imgur.com/9wPnMyX.png');
+    background-size:100% 100%;
+    width:100%;
+    height:100%;
+}
+.flexer{
+    display:flex;
+}
+.menubar{
+    justify-content: flex-start;
+       
+}
+.redx{
+    color:Red;
+    font-size:50px;
+    padding-left:50px;
+    font-family: 'Yellowtail', cursive;
+}
+.aboutmeimg img{
+    width:300px;
+}
+.toprow{
+    justify-content: space-around;
+}
+.bottomrow{
+    justify-content: space-around;
+}

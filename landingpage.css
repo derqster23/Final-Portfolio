@@ -5,6 +5,7 @@ body{
     background-image:linear-gradient(#447188,#ad0b8a);
     color:white;
     background-size:100% 150%;
+    cursor: url('cursor.cur'), auto;
 }
 .first-bar{
     border:2px black hidden;
@@ -83,5 +84,5 @@ body{
 }
 .hover:hover{
     border:5px double white;
-    cursor:pointer;
+    cursor: url('cursor.cur'), auto;
 }
