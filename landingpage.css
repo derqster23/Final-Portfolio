@@ -85,4 +85,5 @@ body{
 .hover:hover{
     border:5px double white;
     cursor: url('cursor.cur'), auto;
+    
 }
