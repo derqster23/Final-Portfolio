@@ -1,0 +1,82 @@
+html,body{
+    height:125%;
+    background-image:linear-gradient(#447188,#ad0b8a);
+    cursor: url('cursor.cur'), auto;
+}
+.backgrounddiv{
+    background-image:url('https://imgur.com/KcYumkK.png');
+    background-size: 100% 100%;
+    width:100%;
+    height:100%;    
+}
+.flexer{
+    display:flex;
+}
+.emaildiv{
+    position: relative; 
+    height:auto;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.emaildiv::before {    
+    content: "";
+    background-image: linear-gradient(#447188,#ad0b8a);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+p {
+    position: relative;
+    color: #ffffff;  
+    font-size: 30px;
+    line-height: 0.9;
+    text-align: center;
+}
+.link{
+    color:lightblue;
+    text-decoration-color: lightblue;
+}
+.hover:hover{
+    border:5px double white;
+    cursor: url('cursor.cur'), auto;   
+}
+.sizeit{
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+.imgdiv{
+    width:100%;
+}
+.margin{
+    margin:10px;
+}
+.specialsize{
+    width: 100%;
+}
+.firstrow{
+    height:50%;
+    width:33%;
+}
+.secondrow{
+    width:33%;
+}
+.pemail{
+    padding:54%;
+}
+.redx{
+    color:#bc4d43;
+    font-size:50px;
+    margin-top:50px;
+    margin-left:50px;
+    font-family: 'Yellowtail', cursive;
+    text-decoration:underline;
+    text-decoration-color: #bc4d43;
+}

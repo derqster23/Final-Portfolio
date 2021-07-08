@@ -22,10 +22,12 @@ body{
 }
 .redx{
     color:#bc4d43;
+    font-family:'Yellowtail',cursive;
     text-decoration:underline;
     text-decoration-color:#bc4d43;
-    font-size:40px;
+    font-size:50px;
     margin-top: 5px;
+    
 }
 .hover:hover{
     border:5px double white;
@@ -43,7 +45,7 @@ body{
     justify-content: space-evenly;
 }
 .secondrow{
-    margin:20px 0 0 0;
+    margin:20px 5px 0 5px;
 }
 .link{
     color:white;
