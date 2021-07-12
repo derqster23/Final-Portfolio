@@ -19,6 +19,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
+    border:white double 3px;
 }    
 .emaildiv::before {    
     content: "";
@@ -41,21 +42,24 @@ p {
 .formdiv{
     background-color:#ad0b8a;
     background-blend-mode: color;
-    padding-top:29%;
-    padding-bottom:44%;
+    padding-top:30%;
+    padding-bottom:51%;
+    margin-top:0px;
+    border:white double 3px;    
 }
 .link{
     color:lightblue;
-    text-decoration-color: lightblue;
+    text-decoration-color: white;
 }
 .hover:hover{
-    border:5px double white;
+    border:3px double white;
     cursor: url('cursor.cur'), auto;   
 }
 .sizeit{
     width:100%;
     margin:0px;
     padding:0px;
+    border:3px white double;
 }
 .imgdiv{
     width:100%;
@@ -72,9 +76,13 @@ p {
 }
 .secondrow{
     width:33%;
+    height:100%;
 }
 .pemail{
     padding:53%;
+}
+.redxdiv{
+    animation:floatredx 3s infinite;
 }
 .redx{
     color:#bc4d43;
@@ -91,4 +99,29 @@ p span{
 .formbutton{
     background-color:#447188;
     color:white;
+}
+@keyframes floatredx {
+    from {
+        transform: translate(0, 0px);
+    } 10% {
+        transform: translate(0, -3px);
+    } 20%{
+        transform:translate(0,-6px);
+    } 30% {
+        transform: translate(0, -9px);
+    } 40% {
+        transform: translate(0, -12px);
+    } 50% {
+        transform: translate(0, -15px);
+    } 60% {
+        transform: translate(0, -12px);
+    } 70% {
+        transform: translate(0, -9px);
+    } 80% {
+        transform: translate(0, -6px);
+    } 90% {
+        transform: translate(0, -3px);
+    } to {
+        transform: translate(0, 0px);
+    }
 }
