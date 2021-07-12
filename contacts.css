@@ -4,7 +4,7 @@ html,body{
     cursor: url('cursor.cur'), auto;
 }
 .backgrounddiv{
-    background-image:url('https://imgur.com/KcYumkK.png');
+    background-image:url('https://imgur.com/XKfwolX.png');
     background-size: 100% 100%;
     width:100%;
     height:100%;    
@@ -19,8 +19,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-    
+}    
 .emaildiv::before {    
     content: "";
     background-image: linear-gradient(#447188,#ad0b8a);
@@ -38,6 +37,12 @@ p {
     font-size: 30px;
     line-height: 0.9;
     text-align: center;
+}
+.formdiv{
+    background-color:#ad0b8a;
+    background-blend-mode: color;
+    padding-top:29%;
+    padding-bottom:44%;
 }
 .link{
     color:lightblue;
@@ -69,7 +74,7 @@ p {
     width:33%;
 }
 .pemail{
-    padding:54%;
+    padding:53%;
 }
 .redx{
     color:#bc4d43;
@@ -79,4 +84,11 @@ p {
     font-family: 'Yellowtail', cursive;
     text-decoration:underline;
     text-decoration-color: #bc4d43;
+}
+p span{
+    display:block;
+}
+.formbutton{
+    background-color:#447188;
+    color:white;
 }

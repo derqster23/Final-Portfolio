@@ -1,22 +1,14 @@
-html, body{
-    height:125%;
+html,body{
+    height:135%;
 }
 body{
-    background-image:linear-gradient(#447188,#ad0b8a);
-    cursor:url('cursor.cur'),auto;
+    background-image: linear-gradient(#447188,#ad0b8a);
 }
 .backgrounddiv{
-    background-image: url('https://imgur.com/9wPnMyX.png');
+    background-image: url('https://imgur.com/ukFUHEO.png');
     background-size:100% 100%;
     width:100%;
     height:100%;
-}
-.flexer{
-    display:flex;
-}
-.menubar{
-    justify-content: flex-start;
-       
 }
 .redx{
     color:#bc4d43;
@@ -28,43 +20,16 @@ body{
     text-decoration-color: #bc4d43;
     animation:float1 3s infinite;
 }
-.aboutmeimg img{
-    width:300px;
-    
+.flexer{
+    display:flex;
 }
-.toprow{
-    justify-content: space-around;
-    margin-right:5%;
-}
-.bottomrow{
-    margin-right:0;
-    justify-content: space-around;
-}
-.spacing{
-    width:25%;
-    margin:20px;
-}
-
-
-.content{
+.listfx{
     font-size:20px;
     color:white;
-    font-family: 'Concert One', cursive;
-    width:60%;
-    margin-left: 5%;
-}
-.leftovers{
-    width:30%;
-    
 }
 .hover:hover{
     border:5px double white;
     cursor: url('cursor.cur'), auto;
-}
-.profileimg{
-    width:20%;
-    float:left;
-    margin:2px;
 }
 @keyframes float1 {
     from {
