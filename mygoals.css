@@ -31,6 +31,9 @@ body{
     border:5px double white;
     cursor: url('cursor.cur'), auto;
 }
+.divsize{
+    width: 50%;
+}
 @keyframes float1 {
     from {
       transform: translate(0, 10px);
