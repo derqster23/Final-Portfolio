@@ -61,29 +61,53 @@ body{
     justify-content: space-around;
 }
 .title-adjuster{
-    margin:0;
     padding:5px;
 }
+.biggerdiv{
+    width:100%;
+    height:50%;
+}
+.oceandiv{
+    margin-top:-2% ;
+    margin-left:1%;
+    margin-bottom:25%;
+    width:25%;
+}
 .ocean{
-    width: 270px;
-    margin:-5px 25px 25px 50px;
+    position:absolute;
+    width: 23%;    
     animation:float1 3s infinite;
 }
+.mountaindiv{
+    margin-top:2% ;
+    margin-left:5%;
+    width:25%
+}
 .mountain{
-    width:250px;
-    margin:25px ;
+    position:absolute;
+    width:21%;    
     animation:float2 3s infinite;
 }
+.cranediv{
+    margin-top:2% ;
+    margin-left:4%;
+    width:25%;
+}
 .crane{
+    position:absolute;
 	border:black 1px hidden;
-	width: 270px;
-   	height: auto;
-    margin: 25px;
+	width: 24%;
+   	height: auto;  
     animation:float3 3s infinite;
 }
+.cyclediv{
+    margin-top:-2% ;
+    margin-left:4%;
+    width:25%;
+}
 .cycle{
-    margin:-5px 25px 25px 25px;
-    width:260px;
+    position:absolute;    
+    width:23%;
     animation:float4 3s infinite;
 }
 
