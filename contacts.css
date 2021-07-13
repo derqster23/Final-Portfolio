@@ -95,15 +95,14 @@ p {
 .formbutton{
     background-color:#447188;
     color:white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-.container {
-    
-    position: relative;
-    
-}  
-/*.center {
-    
-}*/
+.center-content{
+    text-align:center;
+}
+
 @keyframes floatredx {
     from {
         transform: translate(0, 0px);
