@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="contacts.css"><link>
         <link rel="shortcut icon" href="cursor.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Yellowtail&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
         <div class="backgrounddiv">
@@ -17,9 +18,9 @@
             </div>
             <div class="flexer">
                 <div class="margin firstrow">
-                    <acronym title="This is me in my Grandfather's Hat">
+                    <abbr title="This is me in my Grandfather's Hat">
                         <img src="https://imgur.com/MVCbL3t.jpg"  class="sizeit imgdiv">
-                    </acronym>
+                    </abbr>
                 </div>
                 <div class="margin emaildiv firstrow">
                     <p class="pemail">E-mail: 
@@ -28,39 +29,42 @@
                     
                 </div>
                 <div class="margin firstrow">
-                    <acronym title='This is me at the end of season in my Lacrosse Gear'>
+                    <abbr title='This is me at the end of season in my Lacrosse Gear'>
                         <img src="https://imgur.com/xMpJrqf.jpg " class="sizeit imgdiv">
-                    </acronym>
+                    </abbr>
                 </div>
             </div>
             <div class="flexer">
                 <div class="margin secondrow">
-                    <acronym title='Bottom Row Besties!'>
+                    <abbr title='Bottom Row Besties!'>
                         <img src="https://imgur.com/HMonCPo.jpg" class="sizeit">
-                    </acronym>
+                    </abbr>
                 </div>
-                <div class="margin secondrow">
-                    <p class="formdiv">
-                        <span>Use this form to contact me! I would love to hear feedback about my portfolio. While these prompts are under construction, you can use this 
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSemwi5fFfUKRUd7AbmIqWFLGr6i9f46ODv1rrJWHgKyj5cb6A/viewform" target="_blank">Google Form</a>
-                        !</span>
-                        <span>
-                        <input placeholder="First Name">
-                        <input placeholder="Last Name">
-                        <input placeholder="E-mail">
-                        <input placeholder="Comment">
-                        </span>
-                        <span>
-                        <button class="formbutton">Submit</button>
-                        </span>
-                    </p>                    
+                <div class="margin secondrow formdiv">
+                    
+                        <p>Use this form to Contact me Directly! Make sure you send your e-mail so I can respond!</p>
+                        <p>  
+                        <form action="https://formspree.io/f/xyyldeqp" method="POST">
+                            <span>
+                            <input name="firstname" class="first" placeholder="First Name">
+                            <input name="lastname" class="last" placeholder="Last Name">
+                            <input name="email" class="email" placeholder="E-mail">
+                            <input name="comment" class="comment" placeholder="Comment">
+                            </span>
+                            <span>
+                            <button type="submit" class="formbutton">Submit</button>
+                            </span>
+                        </form>
+                    </p>    
+                                    
                 </div>
                 <div class="margin specialsize secondrow">
-                    <acronym title='Bottom Row Besties!'>
+                    <abbr title='Bottom Row Besties!'>
                         <img src="https://imgur.com/BpKvAWp.jpg" class="sizeit specialsize">
-                    </acronym>
+                    </abbr>
                 </div>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>

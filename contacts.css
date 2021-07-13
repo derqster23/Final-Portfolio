@@ -41,10 +41,9 @@ p {
 }
 .formdiv{
     background-color:#ad0b8a;
-    background-blend-mode: color;
-    padding-top:30%;
-    padding-bottom:51%;
+    background-blend-mode: color; 
     margin-top:0px;
+    padding-bottom:26%;
     border:white double 3px;    
 }
 .link{
