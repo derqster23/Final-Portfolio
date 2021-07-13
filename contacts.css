@@ -92,13 +92,18 @@ p {
     text-decoration:underline;
     text-decoration-color: #bc4d43;
 }
-p span{
-    display:block;
-}
 .formbutton{
     background-color:#447188;
     color:white;
 }
+.container {
+    
+    position: relative;
+    
+}  
+/*.center {
+    
+}*/
 @keyframes floatredx {
     from {
         transform: translate(0, 0px);
