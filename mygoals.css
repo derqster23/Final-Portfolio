@@ -5,7 +5,8 @@ body{
     background-image: linear-gradient(#447188,#ad0b8a);
     background-size: 100%, 150%;
     width:100%;
-    height:125%
+    height:125%;
+    cursor:url('cursor.cur'), auto;
 }
 .backgrounddiv{
     background-image: url('https://imgur.com/ukFUHEO.png');
